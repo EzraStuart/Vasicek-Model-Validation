@@ -50,7 +50,6 @@ The analysis involves:
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: A `requirements.txt` file would need to be created for this. I can create one if you'd like)*
 
 ## Usage
 
