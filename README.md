@@ -38,27 +38,6 @@ The analysis involves:
 - **In-depth Validation Suite:** A comprehensive set of statistical tests to rigorously validate the model's assumptions and performance.
 - **Jupyter Notebook for Analysis:** A detailed Jupyter notebook (`rough_workbook.ipynb`) that walks through the entire analysis, from data exploration to model validation, complete with visualizations and interpretations.
 
-## Installation
-
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/Vasicek-Model-Validation.git
-    cd Vasicek-Model-Validation
-    ```
-
-2.  Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-The main entry point of the project is `main.py`. To run the full analysis:
-
-```bash
-python main.py
-```
-
 This script will:
 1.  Load the pre-processed calibration and holdout data.
 2.  Perform stationarity tests on the training data.
