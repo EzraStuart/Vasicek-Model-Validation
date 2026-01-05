@@ -48,23 +48,3 @@ This script will:
 
 For a more interactive and detailed exploration of the analysis, you can open and run the `rough_workbook.ipynb` in a Jupyter environment.
 
-## Key Findings
-
-- The Vasicek model demonstrates a reasonable fit to the historical data, capturing the mean-reverting behavior of interest rates.
-- The Kolmogorov-Smirnov test indicates that the distribution of simulated rate changes is statistically similar to the historical distribution on the training data, but shows some divergence on the holdout set.
-- The Ljung-Box test on the residuals suggests that the model effectively captures the temporal dependencies in the data.
-- The model's performance, while not perfect, is a significant improvement over a simple Geometric Brownian Motion model, highlighting the importance of mean reversion in interest rate modeling.
-
-## Future Work
-
-- **Parameter Sensitivity Analysis:** Investigate how the model's predictions change with variations in the calibrated parameters.
-- **Alternative Models:** Implement and compare the Vasicek model with other short-rate models like Cox-Ingersoll-Ross (CIR) or Hull-White.
-- **Multi-Factor Models:** Explore multi-factor models to capture more complex interest rate dynamics, such as the shape of the yield curve.
-- **Application to Derivatives Pricing:** Use the simulated interest rate paths to price interest rate derivatives, such as bonds, swaps, and options.
-
-## Contact
-
-For any questions or opportunities, please feel free to reach out.
-
----
-*This README is designed to be a comprehensive overview of the project, suitable for showcasing on a GitHub profile to attract recruiters and demonstrate a strong foundation in quantitative finance and data analysis.*
